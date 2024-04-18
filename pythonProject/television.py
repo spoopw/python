@@ -2,10 +2,10 @@ class Television:
     """
     Class for the television
     """
-    MIN_VOLUME = 0
-    MAX_VOLUME = 2
-    MIN_CHANNEL = 0
-    MAX_CHANNEL = 3
+    MIN_VOLUME: int = 0
+    MAX_VOLUME: int = 2
+    MIN_CHANNEL: int = 0
+    MAX_CHANNEL: int = 3
 
     def __init__(self):
         """
